@@ -42,10 +42,10 @@
             bindings = <&kp LCMD>;
         };
         
-                           combo_lgui {
+                           combo_layer3 {
             timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LGUI>;
+            key-positions = <14 24>;
+            bindings = <&mo 3>;
         };
         
         
