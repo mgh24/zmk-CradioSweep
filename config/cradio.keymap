@@ -30,29 +30,29 @@
             bindings = <&kp TAB>;
         };
         
-            combo_ralt {
+            combo_right-command {
             timeout-ms = <50>;
             key-positions = <17 16>;
-            bindings = <&kp RALT>;
+            bindings = <&kp RCMD>;
         };
         
-                    combo_lalt {
+                    combo_layer 3 {
             timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
+            key-positions = <3 4>;
+            bindings = <&mo 3>;
         };
         
-                           combo_lgui {
+                           combo_left-command {
             timeout-ms = <50>;
             key-positions = <12 13>;
-            bindings = <&kp LGUI>;
+            bindings = <&kp LCMD>;
         };
         
         
-           combo_rgui {
+           combo_layer 3 {
             timeout-ms = <50>;
-            key-positions = <17 18>;
-            bindings = <&kp RGUI>;
+            key-positions = <5 6>;
+            bindings = <&mo 3>;
         };
         
 
@@ -93,7 +93,7 @@
 		bindings = <
 		&kp F1  &kp F2    &kp F3   &kp F4    &kp F5 			                &kp F6  &kp F7    &kp F8   &kp F9    &kp F10 
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans 
-		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
+		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &bootloader   				&bootloader &kp PG_DN  &kp K_VOL_DN  &trans &trans   
 					 &trans &trans  					&trans &trans 
 		>;
 		};	
