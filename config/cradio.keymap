@@ -44,7 +44,7 @@
         
                            combo_layer3 {
             timeout-ms = <50>;
-            key-positions = <14 24>;
+            key-positions = <4 14>;
             bindings = <&mo 3>;
         };
         
