@@ -26,7 +26,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        left_layer {
             bindings = <
                 &td0
             >;
