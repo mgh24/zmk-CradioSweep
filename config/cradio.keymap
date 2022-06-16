@@ -13,7 +13,30 @@
    flavor = "tap-preferred";
    tapping-term-ms = <500>;
 };
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
 
+/ {
+    behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N1>, <&kp N2>, <&kp N3>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &td0
+            >;
+        };
+    };
+};
 / { 
 
     combos {
