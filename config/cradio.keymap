@@ -16,7 +16,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-/ {
+{
     behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
@@ -37,7 +37,7 @@
         };
     };
 };
-/ { 
+{ 
 
     combos {
         compatible = "zmk,combos";
