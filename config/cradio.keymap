@@ -65,17 +65,17 @@
        		default_layer {
 		bindings = <
 		&mt N1 Q &mt N2 W &mt N3 E &mt N4 R &mt N5 T 				&mt N6 Y &mt N7 U &mt N8 I &mt N9 O &mt N0 P 
-		&kp A &kp S &kp D &kp F &kp G 			        	        &kp H &kp J &kp K &kp L &kp APOS
-		&mt LSFT Z &kp X &kp C &kp V &kp B				        &kp N &kp M  &kp CMMA &kp DOT &mt QMARK EXCL
-          				&mo 1 &mt LSHFT RET  				&mt RSHFT SPC &mo 2 
+		&kp A    &kp S    &kp D    &kp F    &kp G 			        &kp H    &kp J    &kp K    &kp L    &kp APOS
+		&mt LSFT Z &kp X  &kp C    &kp V    &kp B				&kp N    &kp M    &kp CMMA &kp DOT  &mt QMARK EXCL
+          				&mo 1 &mt LSHFT RET  				&mt RSHFT SPC  &mo 2 
 		>;
 		};
 
        		left_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
-		&kp ESC    &kp MINUS    &kp UNDER    &kp PIPE2    &kp HASH 		&kp PLUS &kp MINUS  &kp ASTRK &kp FSLH  &kp EQL 
-		&kp TAB    &kp TILDE 	&kp LBKT &kp RBKT  &kp BSPC 	                &kp BSPC &kp LPAR &kp RPAR &kp RBKT  &mt COLON SEMI 
+		&kp EXCL   &kp AT       &kp POUND    &kp DLLR     &kp PRCNT		&kp CARET &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR 
+		&kp ESC    &kp MINUS    &kp UNDER    &kp PIPE2    &kp HASH 		&kp PLUS  &kp MINUS  &kp ASTRK  &kp FSLH  &kp EQL 
+		&kp TAB    &kp TILDE 	&kp LBKT &kp RBKT  &kp BSPC 	                &kp BSPC  &kp LPAR   &kp RPAR   &kp RBKT  &mt COLON SEMI 
 					    &mo 1  &kp LSHFT  					&kp RGUI &mo 2 
 		>;
 		};
