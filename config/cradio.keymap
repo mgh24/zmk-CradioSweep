@@ -23,6 +23,12 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+	
+	combo_left-option {
+            timeout-ms = <50>;
+            key-positions = <22 23>;
+            bindings = <&kp LALT>;
+        };
         
          combo_tab {
             timeout-ms = <50>;
@@ -36,10 +42,10 @@
             bindings = <&kp RCMD>;
         };
         
-                    combo_left-command {
+                    combo_left-control {
             timeout-ms = <50>;
-            key-positions = <13 14>;
-            bindings = <&kp LCMD>;
+            key-positions = <20 21>;
+            bindings = <&kp LCTRL>;
         };
         
                            combo_layer3 {
@@ -49,10 +55,10 @@
         };
         
         
-           combo_rgui {
+           combo_right-command {
             timeout-ms = <50>;
             key-positions = <17 18>;
-            bindings = <&kp RGUI>;
+            bindings = <&kp RCMD>;
         };
         
 
