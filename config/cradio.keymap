@@ -76,24 +76,24 @@
 		&kp EXCL   &kp AT      &kp POUND    &kp DLLR     &kp PRCNT		&kp CARET &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR 
 		&kp ESC    &kp MINUS   &kp UNDER    &kp PIPE2    &kp HASH 		&kp PLUS  &kp MINUS  &kp ASTRK  &kp FSLH  &kp EQL 
 		&kp TAB    &kp TILDE   &kp LBKT     &kp RBKT     &kp BSPC 	        &kp BSPC  &kp LPAR   &kp RPAR   &kp RBKT  &mt COLON SEMI 
-					    &mo 1  &kp LSHFT  					&kp RGUI &mo 2 
+					    &mo 1  &kp LSHFT  					&kp SPC &mo 2 
 		>;
 		};
 		
 		right_layer {
 		bindings = <
-		&kp SPACE  &kp HOME  &kp UP    &kp END    &kp PRCT    			&kp CRRT  &kp HOME  &kp UP    &kp END   &kp RPRN 
-		&kp TAB    &kp LEFT  &kp DOWN  &kp RIGHT  &kp SCLN 			&kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT &kp BKSP
-		&kp LCTRL  &kp TILDE &kp LBKT  &kp RBKT   &kp BSPC    		        &kp BSPC  &kp LEFT  &kp DOWN  &kp RIGHT &kp MINUS
+		&kp SPACE  &kp HOME  &kp UP    &kp END    &none    			&kp CRRT  &kp HOME  &kp UP    &kp END   &none
+		&kp TAB    &kp LEFT  &kp DOWN  &kp RIGHT  &none 			&kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT &none
+		&kp LCTRL  &kp TILDE &kp LBKT  &kp RBKT   &kp BSPC    		        &kp BSPC  &kp LEFT  &kp DOWN  &kp RIGHT &none
 					  &mo 3 &kp LSHFT  				   &kp SPC  &mo 2 
 		>;
 		};	
 		
 		tri_layer {
 		bindings = <
-		&kp F1  &kp F2   &kp F3   &kp F4   &kp F5 			        &kp F6       &kp F7        &kp F8       &kp F9       &kp F10 
-		&kp F11 &kp F12  &kp F3   &kp F4   &kp F5  				&bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
-		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &bootloader   			&bootloader &kp PG_DN  &kp K_VOL_DN  &trans &none   
+		&kp F1  &kp F2   &kp F3           &kp F4        &kp F5 			&kp F6       &kp F7        &kp F8       &kp F9       &kp F10 
+		&kp F11 &kp F12  &none            &none         &none  			&bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
+		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &none &bootloader   			&bootloader &kp PG_DN  &kp K_VOL_DN  &trans &none   
 					 &trans &trans  					&trans &trans 
 		>;
 		};	
