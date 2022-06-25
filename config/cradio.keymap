@@ -82,18 +82,18 @@
 		
 		right_layer {
 		bindings = <
-		&kp SPACE  &kp HOME  &kp UP    &kp END    &kp PRCT    			&kp CRRT  &kp HOME  &kp UP    &kp END   &kp MINUS 
-		&kp TAB    &kp LEFT  &kp DOWN  &kp RIGHT  &kp SCLN 			&kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT &kp BKSP
-		&kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSPC    			&kp BSPC  &kp LEFT  &kp DOWN  &kp RIGHT &kp MINUS
-					  &mo 3 &kp LSHIFT  				   &kp SPC  &mo 2 
+		&kp SPACE  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp HOME &kp UP &kp END &kp RPRN 
+		&kp TAB  &kp C  &kp V  &kp Q  &kp SCLN 			                &kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT &kp BKSP
+		&kp LCTRL  &kp LALT &kp LCMD &kp RBKT   &kp BSPC    			&kp BSPC  &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT
+					  &mo 3 &kp LCTL  				&kp SPC  &mo 2 
 		>;
 		};	
 		
 		tri_layer {
 		bindings = <
-		&kp F1  &kp F2    &kp F3   &kp F4    &kp F5 			         &kp F6      &kp F7         &kp F8       &kp F9       &kp F10 
-		&kp F11 &kp F12 &kp F3 &kp F4 &kp F5  				         &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
-		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &bootloader   			 z&bootloader &kp PG_DN  &kp K_VOL_DN  &trans &trans   
+		&kp F1  &kp F2    &kp F3   &kp F4    &kp F5 			                &kp F6  &kp F7    &kp F8   &kp F9    &kp F10 
+		&kp F11 &kp F12 &kp F3 &kp F4 &kp F5  						&bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
+		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &bootloader   				&bootloader &kp PG_DN  &kp K_VOL_DN  &trans &trans   
 					 &trans &trans  					&trans &trans 
 		>;
 		};	
