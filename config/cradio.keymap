@@ -82,8 +82,8 @@
 		
 		right_layer {
 		bindings = <
-		&kp SPACE  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp HOME &kp UP &kp END &kp RPRN 
-		&kp TAB  &kp C  &kp V  &kp Q  &kp SCLN 			                &kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT &kp BKSP
+		&kp SPACE  &kp HOME &kp UP  &kp END  &kp PRCT    			&kp CRRT  &kp HOME &kp UP &kp END &kp RPRN 
+		&kp TAB  &kp LEFT  &kp DOWN  &kp RIGHT  &kp SCLN 			&kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT &kp BKSP
 		&kp LCTRL  &kp LALT &kp LCMD &kp RBKT   &kp BSPC    			&kp BSPC  &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT
 					  &mo 3 &kp LCTL  				&kp SPC  &mo 2 
 		>;
