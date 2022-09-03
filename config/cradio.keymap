@@ -62,6 +62,12 @@
 
         
     };
+    
+            ZMK_MACRO(scrnshot,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&kp LSHFT &kp LCMD &kp N4>;
+    )
 
         keymap {
                 compatible = "zmk,keymap";
@@ -85,9 +91,10 @@
 		};
 		
 		right_layer {
+		bindings = <&scrnshot>;
 		bindings = <
-		&kp SPACE  &none      &kp LSHFT  &kp RCMD  &kp N4    			&kp CRRT   &kp HOME  &kp UP    &kp END    &none
-		&kp TAB    &none      &none      &none     &none 			        &none      &kp LEFT  &kp DOWN  &kp RIGHT  &none
+		&kp SPACE  &none      &kp LSHFT  &kp RCMD  &kp N4    			&kp CRRT   &kp HOME  &kp UP    &kp END    &scrnshot
+		&kp TAB    &none      &none      &none     &none 			&none      &kp LEFT  &kp DOWN  &kp RIGHT  &none
 		&kp LCTRL  &kp TILDE  &kp LBKT   &kp RBKT  &kp BSPC    		        &kp BSPC   &kp LEFT  &kp DOWN  &kp RIGHT  &none
 					  &mo 3 &kp LSHFT  				   &kp SPC  &mo 2 
 		>;
