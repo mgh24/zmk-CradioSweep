@@ -93,17 +93,17 @@
 		right_layer {
 		bindings = <&scrnshot>;
 		bindings = <
-		&kp SPACE  &none      &kp LSHFT  &kp RCMD  &kp N4    			&kp CRRT   &kp HOME  &kp UP    &kp END    &none
-		&kp TAB    &none      &none      &none     &none 			&none      &kp LEFT  &kp DOWN  &kp RIGHT  &none
-		&kp LCTRL  &kp TILDE  &kp LBKT   &kp RBKT  &kp BSPC    		        &kp BSPC   &kp LEFT  &kp DOWN  &kp RIGHT  &none
-					  &mo 3 &kp LSHFT  				   &kp SPC  &mo 2 
+		&none   &kp N7   &kp N8   &kp N9  &kp N0    			&none      &kp HOME  &kp UP    &kp END    &none
+		&none   &kp N4   &kp N5   &kp N6     &none 			&none      &kp LEFT  &kp DOWN  &kp RIGHT  &none
+		&none   &kp N1   &kp N2   &kp N3  &kp BSPC    		        &kp BSPC   &kp LEFT  &kp DOWN  &kp RIGHT  &none
+					 &mo 3 &kp LSHFT  				   &kp SPC  &mo 2 
 		>;
 		};	
 		
 		tri_layer {
 		bindings = <
 		&bootloader  &kp F2        &kp F3        &kp F4       &kp F5 			&kp F6       &kp F7  &kp F8  &kp F9  &bootloader 
-		&kp F11      &kp F12       &none         &none        &none			&none        &none   &none   &none   &none
+		&kp F10      &kp F11       &kp F12       &none        &none			&none        &none   &none   &none   &none
 		&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3   		&bt BT_SEL 4  &none  &none   &none   &reset   
 					                   &none   &none  		            &none &none 
 		>;
